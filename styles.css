@@ -1,0 +1,30 @@
+body {
+    padding: 50px;
+}
+.jumbotron {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    height: auto;
+    width: auto;
+}
+
+.card-body {
+    &:hover {
+        cursor: pointer;
+        transform: translate(0px, 5px);
+    }
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.seguros {
+    display: flex;
+}
+
